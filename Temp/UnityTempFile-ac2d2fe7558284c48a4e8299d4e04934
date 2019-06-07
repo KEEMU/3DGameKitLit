@@ -1,0 +1,545 @@
+/target:library
+/nowarn:0169
+/out:Temp/Assembly-CSharp.dll
+/debug:portable
+/optimize-
+/nostdlib+
+/preferreduilang:en-US
+/langversion:latest
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEditor.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/Unity.Locator.dll"
+/reference:Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+/reference:Library/ScriptAssemblies/Cinemachine.dll
+/reference:Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+/reference:Library/ScriptAssemblies/NavMeshComponentsEditor.dll
+/reference:Library/ScriptAssemblies/WorldBuildingRuntime.dll
+/reference:Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.Timeline.dll
+/reference:Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+/reference:Library/ScriptAssemblies/NavMeshComponents.dll
+/reference:Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+/reference:Library/ScriptAssemblies/Skybox3DRuntime.dll
+/reference:Library/ScriptAssemblies/PackageManagerCheck.dll
+/reference:Library/ScriptAssemblies/com.unity.cinemachine.editor.dll
+/reference:Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.dll
+/reference:Library/ScriptAssemblies/SimpleSFXRuntime.dll
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll"
+/define:UNITY_2019_1_0
+/define:UNITY_2019_1
+/define:UNITY_2019
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:PLATFORM_ARCH_64
+/define:UNITY_64
+/define:UNITY_INCLUDE_TESTS
+/define:ENABLE_AUDIO
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_DUCK_TYPING
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_PHYSICS
+/define:ENABLE_SPRITES
+/define:ENABLE_GRID
+/define:ENABLE_TILEMAP
+/define:ENABLE_TERRAIN
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_DIRECTOR
+/define:ENABLE_UNET
+/define:ENABLE_LZMA
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_WEBCAM
+/define:ENABLE_WWW
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_HUB
+/define:ENABLE_CLOUD_PROJECT_ID
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_EDITOR_HUB
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_TIMELINE
+/define:ENABLE_EDITOR_METRICS
+/define:ENABLE_EDITOR_METRICS_CACHING
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:INCLUDE_DYNAMIC_GI
+/define:INCLUDE_GI
+/define:ENABLE_MONO_BDWGC
+/define:PLATFORM_SUPPORTS_MONO
+/define:RENDER_SOFTWARE_CURSOR
+/define:INCLUDE_PUBNUB
+/define:ENABLE_VIDEO
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_LOCALIZATION
+/define:PLATFORM_STANDALONE_WIN
+/define:PLATFORM_STANDALONE
+/define:UNITY_STANDALONE_WIN
+/define:UNITY_STANDALONE
+/define:ENABLE_SUBSTANCE
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_MOVIES
+/define:ENABLE_NETWORK
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_CLUSTER_SYNC
+/define:ENABLE_CLUSTERINPUT
+/define:ENABLE_VR
+/define:ENABLE_AR
+/define:ENABLE_WEBSOCKET_HOST
+/define:ENABLE_MONO
+/define:NET_STANDARD_2_0
+/define:ENABLE_PROFILER
+/define:DEBUG
+/define:TRACE
+/define:UNITY_ASSERTIONS
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_WIN
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_BURST_AOT
+/define:UNITY_TEAM_LICENSE
+/define:ENABLE_VSTU
+/define:UNITY_POST_PROCESSING_STACK_V2
+/define:CSHARP_7_OR_LATER
+/define:CSHARP_7_3_OR_NEWER
+Assets\3DGamekitLite\Packages\DefaultPlayables\LightControl\LightControlBehaviour.cs
+Assets\3DGamekitLite\Packages\DefaultPlayables\LightControl\LightControlClip.cs
+Assets\3DGamekitLite\Packages\DefaultPlayables\LightControl\LightControlMixerBehaviour.cs
+Assets\3DGamekitLite\Packages\DefaultPlayables\LightControl\LightControlTrack.cs
+Assets\3DGamekitLite\Packages\DefaultPlayables\NavMeshAgentControl\NavMeshAgentControlBehaviour.cs
+Assets\3DGamekitLite\Packages\DefaultPlayables\NavMeshAgentControl\NavMeshAgentControlClip.cs
+Assets\3DGamekitLite\Packages\DefaultPlayables\NavMeshAgentControl\NavMeshAgentControlMixerBehaviour.cs
+Assets\3DGamekitLite\Packages\DefaultPlayables\NavMeshAgentControl\NavMeshAgentControlTrack.cs
+Assets\3DGamekitLite\Packages\DefaultPlayables\ScreenFader\ScreenFaderBehaviour.cs
+Assets\3DGamekitLite\Packages\DefaultPlayables\ScreenFader\ScreenFaderClip.cs
+Assets\3DGamekitLite\Packages\DefaultPlayables\ScreenFader\ScreenFaderMixerBehaviour.cs
+Assets\3DGamekitLite\Packages\DefaultPlayables\ScreenFader\ScreenFaderTrack.cs
+Assets\3DGamekitLite\Packages\DefaultPlayables\StandardMaterialEmission\StandardMaterialEmissionBehaviour.cs
+Assets\3DGamekitLite\Packages\DefaultPlayables\StandardMaterialEmission\StandardMaterialEmissionClip.cs
+Assets\3DGamekitLite\Packages\DefaultPlayables\StandardMaterialEmission\StandardMaterialEmissionMixerBehaviour.cs
+Assets\3DGamekitLite\Packages\DefaultPlayables\StandardMaterialEmission\StandardMaterialEmissionTrack.cs
+Assets\3DGamekitLite\Packages\DefaultPlayables\TextSwitcher\TextSwitcherBehaviour.cs
+Assets\3DGamekitLite\Packages\DefaultPlayables\TextSwitcher\TextSwitcherClip.cs
+Assets\3DGamekitLite\Packages\DefaultPlayables\TextSwitcher\TextSwitcherMixerBehaviour.cs
+Assets\3DGamekitLite\Packages\DefaultPlayables\TextSwitcher\TextSwitcherTrack.cs
+Assets\3DGamekitLite\Packages\DefaultPlayables\TimeDilation\TimeDilationBehaviour.cs
+Assets\3DGamekitLite\Packages\DefaultPlayables\TimeDilation\TimeDilationClip.cs
+Assets\3DGamekitLite\Packages\DefaultPlayables\TimeDilation\TimeDilationMixerBehaviour.cs
+Assets\3DGamekitLite\Packages\DefaultPlayables\TimeDilation\TimeDilationTrack.cs
+Assets\3DGamekitLite\Packages\DefaultPlayables\TransformTween\TransformTweenBehaviour.cs
+Assets\3DGamekitLite\Packages\DefaultPlayables\TransformTween\TransformTweenClip.cs
+Assets\3DGamekitLite\Packages\DefaultPlayables\TransformTween\TransformTweenMixerBehaviour.cs
+Assets\3DGamekitLite\Packages\DefaultPlayables\TransformTween\TransformTweenTrack.cs
+Assets\3DGamekitLite\Packages\Interactive\Runtime\Actions\GameplayCounter.cs
+Assets\3DGamekitLite\Packages\Interactive\Runtime\Actions\ParticleSystemEmit.cs
+Assets\3DGamekitLite\Packages\Interactive\Runtime\Actions\PlayAnimation.cs
+Assets\3DGamekitLite\Packages\Interactive\Runtime\Actions\PlaySound.cs
+Assets\3DGamekitLite\Packages\Interactive\Runtime\Actions\SetAnimatorTrigger.cs
+Assets\3DGamekitLite\Packages\Interactive\Runtime\Actions\SetGameObjectActive.cs
+Assets\3DGamekitLite\Packages\Interactive\Runtime\Actions\SimpleRotator.cs
+Assets\3DGamekitLite\Packages\Interactive\Runtime\Actions\SimpleTransformer.cs
+Assets\3DGamekitLite\Packages\Interactive\Runtime\Actions\SimpleTranslator.cs
+Assets\3DGamekitLite\Packages\Interactive\Runtime\Actions\StartPlayableDirector.cs
+Assets\3DGamekitLite\Packages\Interactive\Runtime\Actions\SwitchMaterial.cs
+Assets\3DGamekitLite\Packages\Interactive\Runtime\Actions\ToggleGameObjectActive.cs
+Assets\3DGamekitLite\Packages\Interactive\Runtime\Actions\TriggerUnityEvent.cs
+Assets\3DGamekitLite\Packages\Interactive\Runtime\Collectable.cs
+Assets\3DGamekitLite\Packages\Interactive\Runtime\Collector.cs
+Assets\3DGamekitLite\Packages\Interactive\Runtime\GameCommandHandler.cs
+Assets\3DGamekitLite\Packages\Interactive\Runtime\GameCommandReceiver.cs
+Assets\3DGamekitLite\Packages\Interactive\Runtime\GameCommandType.cs
+Assets\3DGamekitLite\Packages\Interactive\Runtime\OnTeleportEvent.cs
+Assets\3DGamekitLite\Packages\Interactive\Runtime\Platforms\Runtime\Platform.cs
+Assets\3DGamekitLite\Packages\Interactive\Runtime\Senders\SendOnBecameInvisible.cs
+Assets\3DGamekitLite\Packages\Interactive\Runtime\Senders\SendOnBecameVisible.cs
+Assets\3DGamekitLite\Packages\Interactive\Runtime\Senders\SendOnCollisionEnter.cs
+Assets\3DGamekitLite\Packages\Interactive\Runtime\Senders\SendOnCollisionExit.cs
+Assets\3DGamekitLite\Packages\Interactive\Runtime\Senders\SendOnCollisionStay.cs
+Assets\3DGamekitLite\Packages\Interactive\Runtime\Senders\SendOnTriggerEnter.cs
+Assets\3DGamekitLite\Packages\Interactive\Runtime\Senders\SendOnTriggerExit.cs
+Assets\3DGamekitLite\Packages\Interactive\Runtime\Senders\SendOnTriggerStay.cs
+Assets\3DGamekitLite\Packages\Interactive\Runtime\Senders\TriggerCommand.cs
+Assets\3DGamekitLite\Packages\Interactive\Runtime\SendGameCommand.cs
+Assets\3DGamekitLite\Packages\Interactive\Runtime\Teleporter.cs
+Assets\3DGamekitLite\Packages\ProCore\Polybrush\Code\Enum\z_BrushMirror.cs
+Assets\3DGamekitLite\Packages\ProCore\Polybrush\Code\Enum\z_ComponentIndex.cs
+Assets\3DGamekitLite\Packages\ProCore\Polybrush\Code\Enum\z_Culling.cs
+Assets\3DGamekitLite\Packages\ProCore\Polybrush\Code\Enum\z_Direction.cs
+Assets\3DGamekitLite\Packages\ProCore\Polybrush\Code\Enum\z_MeshChannel.cs
+Assets\3DGamekitLite\Packages\ProCore\Polybrush\Code\Enum\z_MirrorCoordinateSpace.cs
+Assets\3DGamekitLite\Packages\ProCore\Polybrush\Code\Enum\z_ModelSource.cs
+Assets\3DGamekitLite\Packages\ProCore\Polybrush\Code\Enum\z_PaintMode.cs
+Assets\3DGamekitLite\Packages\ProCore\Polybrush\Code\Enum\z_PlacementDirection.cs
+Assets\3DGamekitLite\Packages\ProCore\Polybrush\Code\Enum\z_SelectionRenderState.cs
+Assets\3DGamekitLite\Packages\ProCore\Polybrush\Code\Scripts\MonoBehaviour\z_AdditionalVertexStreams.cs
+Assets\3DGamekitLite\Packages\ProCore\Polybrush\Code\Scripts\MonoBehaviour\z_OverlayRenderer.cs
+Assets\3DGamekitLite\Packages\ProCore\Polybrush\Code\Scripts\MonoBehaviour\z_ZoomOverride.cs
+Assets\3DGamekitLite\Packages\ProCore\Polybrush\Code\Scripts\Type\z_AttributeLayout.cs
+Assets\3DGamekitLite\Packages\ProCore\Polybrush\Code\Scripts\Type\z_ColorMask.cs
+Assets\3DGamekitLite\Packages\ProCore\Polybrush\Code\Scripts\Type\z_CommonEdge.cs
+Assets\3DGamekitLite\Packages\ProCore\Polybrush\Code\Scripts\Type\z_Edge.cs
+Assets\3DGamekitLite\Packages\ProCore\Polybrush\Code\Scripts\Type\z_GradientSerializer.cs
+Assets\3DGamekitLite\Packages\ProCore\Polybrush\Code\Scripts\Type\z_IHasDefault.cs
+Assets\3DGamekitLite\Packages\ProCore\Polybrush\Code\Scripts\Type\z_IValid.cs
+Assets\3DGamekitLite\Packages\ProCore\Polybrush\Code\Scripts\Type\z_Mesh.cs
+Assets\3DGamekitLite\Packages\ProCore\Polybrush\Code\Scripts\Type\z_RndVec3.cs
+Assets\3DGamekitLite\Packages\ProCore\Polybrush\Code\Scripts\Type\z_SplatSet.cs
+Assets\3DGamekitLite\Packages\ProCore\Polybrush\Code\Scripts\Type\z_SplatWeight.cs
+Assets\3DGamekitLite\Packages\ProCore\Polybrush\Code\Scripts\Utility\z_Math.cs
+Assets\3DGamekitLite\Packages\ProCore\Polybrush\Code\Scripts\Utility\z_MeshUtility.cs
+Assets\3DGamekitLite\Packages\ProCore\Polybrush\Code\Scripts\Utility\z_Util.cs
+Assets\3DGamekitLite\Packages\ProCore\Polybrush\Code\Scripts\Utility\z_Vector.cs
+Assets\3DGamekitLite\Packages\SceneManagement\Runtime\CharacterStateSetter.cs
+Assets\3DGamekitLite\Packages\SceneManagement\Runtime\GameObjectTeleporter.cs
+Assets\3DGamekitLite\Packages\SceneManagement\Runtime\IDataPersister.cs
+Assets\3DGamekitLite\Packages\SceneManagement\Runtime\PersistentDataManager.cs
+Assets\3DGamekitLite\Packages\SceneManagement\Runtime\SavedData.cs
+Assets\3DGamekitLite\Packages\SceneManagement\Runtime\SceneController.cs
+Assets\3DGamekitLite\Packages\SceneManagement\Runtime\SceneControllerWrapper.cs
+Assets\3DGamekitLite\Packages\SceneManagement\Runtime\SceneNameAttribute.cs
+Assets\3DGamekitLite\Packages\SceneManagement\Runtime\SceneTransitionDestination.cs
+Assets\3DGamekitLite\Packages\SceneManagement\Runtime\ScreenFader.cs
+Assets\3DGamekitLite\Packages\SceneManagement\Runtime\TransitionPoint.cs
+Assets\3DGamekitLite\Scripts\Effects\CaptureDepthTexture.cs
+Assets\3DGamekitLite\Scripts\Effects\CopyShadowMap.cs
+Assets\3DGamekitLite\Scripts\Effects\EffectEvents.cs
+Assets\3DGamekitLite\Scripts\Effects\EffectStateMachineBehavior.cs
+Assets\3DGamekitLite\Scripts\Effects\GunnerLightning.cs
+Assets\3DGamekitLite\Scripts\Effects\MirrorReflection.cs
+Assets\3DGamekitLite\Scripts\Effects\SimulateParticleSystem.cs
+Assets\3DGamekitLite\Scripts\Effects\SunSkybox.cs
+Assets\3DGamekitLite\Scripts\Effects\WaterRipple.cs
+Assets\3DGamekitLite\Scripts\Game\Audio\AudioPlayerOnEnable.cs
+Assets\3DGamekitLite\Scripts\Game\Audio\MixerSliderLink.cs
+Assets\3DGamekitLite\Scripts\Game\Audio\RandomAudioPlayer.cs
+Assets\3DGamekitLite\Scripts\Game\Camera\CameraShake.cs
+Assets\3DGamekitLite\Scripts\Game\Camera\EditorCamera.cs
+Assets\3DGamekitLite\Scripts\Game\Camera\LayerCullDistances.cs
+Assets\3DGamekitLite\Scripts\Game\Camera\ScreenshotWithAlpha.cs
+Assets\3DGamekitLite\Scripts\Game\Core\EllenSpawn.cs
+Assets\3DGamekitLite\Scripts\Game\Core\FPSTarget.cs
+Assets\3DGamekitLite\Scripts\Game\Core\InteractionCollision.cs
+Assets\3DGamekitLite\Scripts\Game\Core\InteractionTrigger.cs
+Assets\3DGamekitLite\Scripts\Game\Core\InteractOnButton.cs
+Assets\3DGamekitLite\Scripts\Game\Core\InteractOnCollision.cs
+Assets\3DGamekitLite\Scripts\Game\Core\InteractOnTrigger.cs
+Assets\3DGamekitLite\Scripts\Game\Core\InventoryController.cs
+Assets\3DGamekitLite\Scripts\Game\Core\InventoryItem.cs
+Assets\3DGamekitLite\Scripts\Game\Core\Respawner.cs
+Assets\3DGamekitLite\Scripts\Game\Core\ScenarioController.cs
+Assets\3DGamekitLite\Scripts\Game\Core\SceneLinkedSMB.cs
+Assets\3DGamekitLite\Scripts\Game\Core\TargetDistributor.cs
+Assets\3DGamekitLite\Scripts\Game\DamageSystem\Damageable.cs
+Assets\3DGamekitLite\Scripts\Game\DamageSystem\Damageable.DamageMessage.cs
+Assets\3DGamekitLite\Scripts\Game\DamageSystem\DamageZone.cs
+Assets\3DGamekitLite\Scripts\Game\DamageSystem\DeathVolume.cs
+Assets\3DGamekitLite\Scripts\Game\Enemies\Chomper\ChomperBehavior.cs
+Assets\3DGamekitLite\Scripts\Game\Enemies\Chomper\ChomperSMBAttack.cs
+Assets\3DGamekitLite\Scripts\Game\Enemies\Chomper\ChomperSMBFall.cs
+Assets\3DGamekitLite\Scripts\Game\Enemies\Chomper\ChomperSMBHit.cs
+Assets\3DGamekitLite\Scripts\Game\Enemies\Chomper\ChomperSMBIdle.cs
+Assets\3DGamekitLite\Scripts\Game\Enemies\Chomper\ChomperSMBPursuit.cs
+Assets\3DGamekitLite\Scripts\Game\Enemies\Chomper\ChomperSMBReturn.cs
+Assets\3DGamekitLite\Scripts\Game\Enemies\Chomper\ChomperSMBSpotted.cs
+Assets\3DGamekitLite\Scripts\Game\Enemies\ContactDamager.cs
+Assets\3DGamekitLite\Scripts\Game\Enemies\EnemyController.cs
+Assets\3DGamekitLite\Scripts\Game\Enemies\Grenadier\GrenadierBehaviour.cs
+Assets\3DGamekitLite\Scripts\Game\Enemies\Grenadier\GrenadierGrenade.cs
+Assets\3DGamekitLite\Scripts\Game\Enemies\Grenadier\GrenadierShield.cs
+Assets\3DGamekitLite\Scripts\Game\Enemies\Grenadier\GrenadierSMBIdle.cs
+Assets\3DGamekitLite\Scripts\Game\Enemies\Grenadier\GrenadierSMBPunch.cs
+Assets\3DGamekitLite\Scripts\Game\Enemies\Grenadier\GrenadierSMBPursuit.cs
+Assets\3DGamekitLite\Scripts\Game\Enemies\Grenadier\GrenadierSMBRangeAttack.cs
+Assets\3DGamekitLite\Scripts\Game\Enemies\Grenadier\GrenadierSMBTurning.cs
+Assets\3DGamekitLite\Scripts\Game\Enemies\ReplaceWithRagdoll.cs
+Assets\3DGamekitLite\Scripts\Game\Enemies\ReplaceWithRagdollSMB.cs
+Assets\3DGamekitLite\Scripts\Game\Enemies\Spitter\SpitterBehaviour.cs
+Assets\3DGamekitLite\Scripts\Game\Enemies\Spitter\SpitterSMBCooldown.cs
+Assets\3DGamekitLite\Scripts\Game\Enemies\Spitter\SpitterSMBFleeing.cs
+Assets\3DGamekitLite\Scripts\Game\Enemies\Spitter\SpitterSMBHit.cs
+Assets\3DGamekitLite\Scripts\Game\Enemies\Spitter\SpitterSMBIdle.cs
+Assets\3DGamekitLite\Scripts\Game\Enemies\Spitter\SpitterSMBShoot.cs
+Assets\3DGamekitLite\Scripts\Game\Enemies\Spitter\SpitterSMBSpotted.cs
+Assets\3DGamekitLite\Scripts\Game\Graphics\Dissolve.cs
+Assets\3DGamekitLite\Scripts\Game\Graphics\FootStepEffect.cs
+Assets\3DGamekitLite\Scripts\Game\Graphics\GlobalShaderSettings.cs
+Assets\3DGamekitLite\Scripts\Game\Graphics\ModulatedLight.cs
+Assets\3DGamekitLite\Scripts\Game\Helpers\BatchProcessor.cs
+Assets\3DGamekitLite\Scripts\Game\Helpers\CameraSettings.cs
+Assets\3DGamekitLite\Scripts\Game\Helpers\FixedUpdateFollow.cs
+Assets\3DGamekitLite\Scripts\Game\Helpers\InspectorHelpMessage.cs
+Assets\3DGamekitLite\Scripts\Game\Helpers\LayerMaskExtensions.cs
+Assets\3DGamekitLite\Scripts\Game\Helpers\MessageSystem.cs
+Assets\3DGamekitLite\Scripts\Game\Helpers\ObjectPooler.cs
+Assets\3DGamekitLite\Scripts\Game\Helpers\ParticleDeactivator.cs
+Assets\3DGamekitLite\Scripts\Game\Helpers\PrettyListAttribute.cs
+Assets\3DGamekitLite\Scripts\Game\Helpers\RandomStateSMB.cs
+Assets\3DGamekitLite\Scripts\Game\Helpers\RigidbodyDelayedForce.cs
+Assets\3DGamekitLite\Scripts\Game\Helpers\Spinner.cs
+Assets\3DGamekitLite\Scripts\Game\Helpers\TargetScanner.cs
+Assets\3DGamekitLite\Scripts\Game\Helpers\TransformExtensions.cs
+Assets\3DGamekitLite\Scripts\Game\Helpers\TransformFollow.cs
+Assets\3DGamekitLite\Scripts\Game\Localization\OriginalPhrases.cs
+Assets\3DGamekitLite\Scripts\Game\Localization\TranslatedPhrases.cs
+Assets\3DGamekitLite\Scripts\Game\Localization\TranslatedText.cs
+Assets\3DGamekitLite\Scripts\Game\Localization\Translator.cs
+Assets\3DGamekitLite\Scripts\Game\Player\Checkpoint.cs
+Assets\3DGamekitLite\Scripts\Game\Player\CheckpointGroup.cs
+Assets\3DGamekitLite\Scripts\Game\Player\PlayerController.cs
+Assets\3DGamekitLite\Scripts\Game\Player\PlayerInput.cs
+Assets\3DGamekitLite\Scripts\Game\Player\RespawnPlayer.cs
+Assets\3DGamekitLite\Scripts\Game\Player\StateMachineBehaviour\EllenRespawnEffect.cs
+Assets\3DGamekitLite\Scripts\Game\Player\StateMachineBehaviour\EllenSetTargetableSMB.cs
+Assets\3DGamekitLite\Scripts\Game\Player\StateMachineBehaviour\EllenStaffEffect.cs
+Assets\3DGamekitLite\Scripts\Game\Timeline\AudioSnapshot\AudioSnapshotBehaviour.cs
+Assets\3DGamekitLite\Scripts\Game\Timeline\AudioSnapshot\AudioSnapshotClip.cs
+Assets\3DGamekitLite\Scripts\Game\Timeline\AudioSnapshot\AudioSnapshotMixerBehaviour.cs
+Assets\3DGamekitLite\Scripts\Game\Timeline\AudioSnapshot\AudioSnapshotTrack.cs
+Assets\3DGamekitLite\Scripts\Game\Timeline\CutsceneScriptControl\CutsceneScriptControlBehaviour.cs
+Assets\3DGamekitLite\Scripts\Game\Timeline\CutsceneScriptControl\CutsceneScriptControlClip.cs
+Assets\3DGamekitLite\Scripts\Game\Timeline\CutsceneScriptControl\CutsceneScriptControlMixerBehaviour.cs
+Assets\3DGamekitLite\Scripts\Game\Timeline\CutsceneScriptControl\CutsceneScriptControlTrack.cs
+Assets\3DGamekitLite\Scripts\Game\Timeline\MaterialSwitcher\MaterialSwitcherBehaviour.cs
+Assets\3DGamekitLite\Scripts\Game\Timeline\MaterialSwitcher\MaterialSwitcherClip.cs
+Assets\3DGamekitLite\Scripts\Game\Timeline\MaterialSwitcher\MaterialSwitcherMixerBehaviour.cs
+Assets\3DGamekitLite\Scripts\Game\Timeline\MaterialSwitcher\MaterialSwitcherTrack.cs
+Assets\3DGamekitLite\Scripts\Game\Timeline\SceneReloader\SceneReloaderBehaviour.cs
+Assets\3DGamekitLite\Scripts\Game\Timeline\SceneReloader\SceneReloaderClip.cs
+Assets\3DGamekitLite\Scripts\Game\Timeline\SceneReloader\SceneReloaderMixerBehaviour.cs
+Assets\3DGamekitLite\Scripts\Game\Timeline\SceneReloader\SceneReloaderTrack.cs
+Assets\3DGamekitLite\Scripts\Game\Timeline\SetLocation\SetLocationBehaviour.cs
+Assets\3DGamekitLite\Scripts\Game\Timeline\SetLocation\SetLocationClip.cs
+Assets\3DGamekitLite\Scripts\Game\Timeline\SetLocation\SetLocationMixerBehaviour.cs
+Assets\3DGamekitLite\Scripts\Game\Timeline\SetLocation\SetLocationTrack.cs
+Assets\3DGamekitLite\Scripts\Game\Timeline\TimelineTriggerZone.cs
+Assets\3DGamekitLite\Scripts\Game\Timeline\TimeMachine\TimeMachineBehaviour.cs
+Assets\3DGamekitLite\Scripts\Game\Timeline\TimeMachine\TimeMachineClip.cs
+Assets\3DGamekitLite\Scripts\Game\Timeline\TimeMachine\TimeMachineMixerBehaviour.cs
+Assets\3DGamekitLite\Scripts\Game\Timeline\TimeMachine\TimeMachineTrack.cs
+Assets\3DGamekitLite\Scripts\Game\UI\DialogueCanvasController.cs
+Assets\3DGamekitLite\Scripts\Game\UI\HealthUI.cs
+Assets\3DGamekitLite\Scripts\Game\UI\KeyUI.cs
+Assets\3DGamekitLite\Scripts\Game\UI\MenuActivityController.cs
+Assets\3DGamekitLite\Scripts\Game\UI\SetCursorMode.cs
+Assets\3DGamekitLite\Scripts\Game\UI\StartUI.cs
+Assets\3DGamekitLite\Scripts\Game\Utility\OpenURL.cs
+Assets\3DGamekitLite\Scripts\Game\Utility\QualitySettingCheck.cs
+Assets\3DGamekitLite\Scripts\Game\Utility\QualitySettingPostprocessProfileSwitch.cs
+Assets\3DGamekitLite\Scripts\Game\Utility\SkyboxLookAt.cs
+Assets\3DGamekitLite\Scripts\Game\Utility\SnapToGround.cs
+Assets\3DGamekitLite\Scripts\Game\Utility\StartScreenSpriteOffsetter.cs
+Assets\3DGamekitLite\Scripts\Game\Utility\UIAutoscroll.cs
+Assets\3DGamekitLite\Scripts\Game\Weapon\F3DTurret.cs
+Assets\3DGamekitLite\Scripts\Game\Weapon\Follow.cs
+Assets\3DGamekitLite\Scripts\Game\Weapon\MeleeWeapon.cs
+Assets\3DGamekitLite\Scripts\Game\Weapon\Projectile.cs
+Assets\3DGamekitLite\Scripts\Game\Weapon\RangeWeapon.cs
+Assets\3DGamekitLite\Scripts\Game\Weapon\Shoot.cs
+Assets\3DGamekitLite\Scripts\Game\Weapon\SphereAttack.cs
+Assets\3DGamekitLite\Scripts\Game\Weapon\Spit.cs
+Assets\3DGamekitLite\Scripts\Game\Weapon\TimeEffect.cs
+Assets\3DGamekitLite\Scripts\Scripts\AmbientAudio.cs
+Assets\3DGamekitLite\Scripts\Scripts\SoundTrack.cs
+Assets\3DGamekitLite\Scripts\Scripts\SoundTrackVolume.cs
+Assets\3DGamekitLite\TutorialInfo\Scripts\Readme.cs

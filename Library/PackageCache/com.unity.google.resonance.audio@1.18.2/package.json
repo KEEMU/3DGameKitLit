@@ -1,0 +1,10 @@
+{
+	"name": "com.unity.google.resonance.audio",
+	"displayName":"Google Resonance Audio",
+	"version": "1.18.2",
+	"unity": "2019.1",
+	"description": "This package contians audio spatializer libraries for use with Unity spatial audio. This package is included with the Google VR packages for use with Daydream and Cardboard.",
+	"keywords": ["google", "cardboard", "daydream", "gvr", "resonance", "audio", "spatialize"],
+    "dependencies": {
+    }
+}
